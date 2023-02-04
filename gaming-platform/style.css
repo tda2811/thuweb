@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(176.32deg, #090501 -26.24%, #120A01 96.98%);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+/*THANH ĐIỀU HƯỚNG*/
+header {
+    position: fixed;
+    background-color: #090501;
+}
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px;
+}
+
+.navBar h3 {
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 153.5%; 
+}
+
+.navBar #contact{
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.menuBar {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+}
+
+main {
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.big-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.big-news-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.big-news-content h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155.2%;
+    color: #E87D0E;
+}
+
+.big-news-content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 155.2%;
+/* or 78px */
+}
+
+.big-news-content p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;    
+    line-height: 200%;
+}
+
+.big-news-content button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.big-news-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-news-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.trending-game {
+    height: fit-content;
+}
+
+.trending-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 187.5%;
+    place-items: center;
+}
+
+.trending-content button {
+    background: rgba(255, 255, 255, 0.11);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 187.5%;
+    height: 50%;
+    color: white;
+    padding: 5px 20px;
+}
+
